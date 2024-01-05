@@ -1,0 +1,549 @@
+{
+	"info": {
+		"_postman_id": "6c97424b-f030-4b7b-889f-c7d7153c6656",
+		"name": "API-Tichdiem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24078320"
+	},
+	"item": [
+		{
+			"name": "Points",
+			"item": [
+				{
+					"name": "Get Points All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYjljMTg5M2YwYjQyNGJlNzkyOGFhMDhlY2U2MGQzNDg1MTY2NGRlYzg3MTBlYWE0NzA3MzE2ODc5Mzc5NDJjMzM1YjFlY2NmMDM1ZGQxZDEiLCJpYXQiOjE3MDQ0NDAxMzQuODIxMzY1LCJuYmYiOjE3MDQ0NDAxMzQuODIxMzY4LCJleHAiOjE3MzYwNjI1MzQuODE0NjQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.cTwmxYxRkGaL3dqHM-jA5Yl07_889v6q0UM2qH0XhjiEK_xnHfjxeVv4vsoSm94NqgkI2f9gqbs_v8wcczTBeu_J3g4pYBB45dS_4qc8kizxTzBPR8Xl7L1uPV2vzqcDG9NI_TTSecDWck2L4a168qToiI2sAVKzLZa08hH3vDIwTvngCfGRWJM73me5crWzmbs5J-adOsY0iJZcNMnsxO_cH9Yzgm6d7sDvVaH4SV4FHYiT_fu9i1wChjhN5hYtCq6FfW-8NOC07eJr_nPapOCczpeIjGQU6pT1qll2tBU2DUDNKAZdJXC0XmCiuRKv0xaXNj6AOL3r-lOJFqhfS49TvcLNaFBOsAqzx86KZoMoL3d316xfAOJJ7HzFeFLVOGHWgvUk_ixcPgvhnU8UWDliQhtginuqWZcC1AvFZ83-UOAEDKdexDhZwI8M6Qa0ZgxOXfjX5nPE1s19t7mvC22tLAczz1hesII9sbQmUrHebL6kS96e_m_5lNKlYdz91RyyTVx8gRp7fOpOB4OqWqvoJa5XF-CZlQx_Gg0xI9vZJzkHN0NruJUhJM04uEfqMu2yhiWIBISHPHMznMttpcq-mBKRVMAZDnJqCRRncn4wwIUcjme-BjteKgGGp5jhKsG8Sb0jsq9t1XjfegR1tCU83HG6f_xmw7SeSSO44XU",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/points",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"points"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Points Customer",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYjljMTg5M2YwYjQyNGJlNzkyOGFhMDhlY2U2MGQzNDg1MTY2NGRlYzg3MTBlYWE0NzA3MzE2ODc5Mzc5NDJjMzM1YjFlY2NmMDM1ZGQxZDEiLCJpYXQiOjE3MDQ0NDAxMzQuODIxMzY1LCJuYmYiOjE3MDQ0NDAxMzQuODIxMzY4LCJleHAiOjE3MzYwNjI1MzQuODE0NjQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.cTwmxYxRkGaL3dqHM-jA5Yl07_889v6q0UM2qH0XhjiEK_xnHfjxeVv4vsoSm94NqgkI2f9gqbs_v8wcczTBeu_J3g4pYBB45dS_4qc8kizxTzBPR8Xl7L1uPV2vzqcDG9NI_TTSecDWck2L4a168qToiI2sAVKzLZa08hH3vDIwTvngCfGRWJM73me5crWzmbs5J-adOsY0iJZcNMnsxO_cH9Yzgm6d7sDvVaH4SV4FHYiT_fu9i1wChjhN5hYtCq6FfW-8NOC07eJr_nPapOCczpeIjGQU6pT1qll2tBU2DUDNKAZdJXC0XmCiuRKv0xaXNj6AOL3r-lOJFqhfS49TvcLNaFBOsAqzx86KZoMoL3d316xfAOJJ7HzFeFLVOGHWgvUk_ixcPgvhnU8UWDliQhtginuqWZcC1AvFZ83-UOAEDKdexDhZwI8M6Qa0ZgxOXfjX5nPE1s19t7mvC22tLAczz1hesII9sbQmUrHebL6kS96e_m_5lNKlYdz91RyyTVx8gRp7fOpOB4OqWqvoJa5XF-CZlQx_Gg0xI9vZJzkHN0NruJUhJM04uEfqMu2yhiWIBISHPHMznMttpcq-mBKRVMAZDnJqCRRncn4wwIUcjme-BjteKgGGp5jhKsG8Sb0jsq9t1XjfegR1tCU83HG6f_xmw7SeSSO44XU",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/points/KH01",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"points",
+								"KH01"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Points",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmJmYjQ2MDBkODY5ZDU2N2U0YmE2MGZiNzRiZDM0YmYyNDQ0NDM0N2U1M2QzYjViOTQ0NGM4MTQyYTc1NGQ0NTlkZmM4YzE3MTgzYjUzNDAiLCJpYXQiOjE3MDQ0MzA1NzYuMDgzNTgsIm5iZiI6MTcwNDQzMDU3Ni4wODM1ODIsImV4cCI6MTczNjA1Mjk3Ni4wNzc4NzEsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.sjWnjnnrlDwiSOSMrPv5wySPaKVrzCcWxOodeln2Vt2WZKUAeOLprzBvN6IA97mubGHK_oVRr0Uujw06Ys5oBFhv97okrX6_gt2MXwF1GN2WhElwOIjAbH3iLbUaIZWautDasTFt-Fx7gCgi6qZGRwp7hwY6lV97zEdikGpFSgF1htQo52MapElWf2rsa0w-wzQdK8NOI1YFSLcP9Wugq2VuDm25VWbF-O3wd3RPxX7ERVBN3X936AofCJZbm21xPnaKL8bBpzKyk6wR9bem4fJdtC_sxb-HvDpwf-V5fEakt8X2bPKIgYfvlCudEB1QABuFZdwMdk4l5QUS1Xyp-avVwhhbj0hIlTISQQjGRQx7yrO1roVEXf2FTNIV-hTadJE3-qqRxN4aNBkHIR5cDcy8R6WhC1OG9klAYyCdlZFnDrgLNsrIkshMis5T9SFKO5Tibmg_K2SscKdExrfmMT8ZO-6O-FekwjZp7VuZZztI62Zv5ajMaZL3xfUrAXTZDoeZ6FjRfDSQkRGHKG4ZpfDLWmxHtcaJMsBhdC7Nd4TvbAMeQ-RpnqJHUxKruRXgC15rPDawwy2XisFP96_EGBN2KGfaO-TnUnX9p8Ttm9wBVd9MSJTI-kDVHmtm7RuuUlE-17DZVGZAtF1GB8u759jUkXzgjG2EKJUp6XVZAo4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ma_khach_hang\": \"KH02\",\r\n    \"ten_san_pham\": \"Nâng Mũi VLine\",\r\n    \"ma_tich_diem\": \"TD02\",\r\n    \"so_diem_cong\": \"15\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/points/save",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"points",
+								"save"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Points",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmJmYjQ2MDBkODY5ZDU2N2U0YmE2MGZiNzRiZDM0YmYyNDQ0NDM0N2U1M2QzYjViOTQ0NGM4MTQyYTc1NGQ0NTlkZmM4YzE3MTgzYjUzNDAiLCJpYXQiOjE3MDQ0MzA1NzYuMDgzNTgsIm5iZiI6MTcwNDQzMDU3Ni4wODM1ODIsImV4cCI6MTczNjA1Mjk3Ni4wNzc4NzEsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.sjWnjnnrlDwiSOSMrPv5wySPaKVrzCcWxOodeln2Vt2WZKUAeOLprzBvN6IA97mubGHK_oVRr0Uujw06Ys5oBFhv97okrX6_gt2MXwF1GN2WhElwOIjAbH3iLbUaIZWautDasTFt-Fx7gCgi6qZGRwp7hwY6lV97zEdikGpFSgF1htQo52MapElWf2rsa0w-wzQdK8NOI1YFSLcP9Wugq2VuDm25VWbF-O3wd3RPxX7ERVBN3X936AofCJZbm21xPnaKL8bBpzKyk6wR9bem4fJdtC_sxb-HvDpwf-V5fEakt8X2bPKIgYfvlCudEB1QABuFZdwMdk4l5QUS1Xyp-avVwhhbj0hIlTISQQjGRQx7yrO1roVEXf2FTNIV-hTadJE3-qqRxN4aNBkHIR5cDcy8R6WhC1OG9klAYyCdlZFnDrgLNsrIkshMis5T9SFKO5Tibmg_K2SscKdExrfmMT8ZO-6O-FekwjZp7VuZZztI62Zv5ajMaZL3xfUrAXTZDoeZ6FjRfDSQkRGHKG4ZpfDLWmxHtcaJMsBhdC7Nd4TvbAMeQ-RpnqJHUxKruRXgC15rPDawwy2XisFP96_EGBN2KGfaO-TnUnX9p8Ttm9wBVd9MSJTI-kDVHmtm7RuuUlE-17DZVGZAtF1GB8u759jUkXzgjG2EKJUp6XVZAo4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ma_khach_hang\": \"KH02\",\r\n    \"ten_san_pham\": \"Nâng Mũi VLine\",\r\n    \"ma_tich_diem\": \"TD02\",\r\n    \"so_diem_cong\": \"5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/points/update/2",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"points",
+								"update",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Points",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmJmYjQ2MDBkODY5ZDU2N2U0YmE2MGZiNzRiZDM0YmYyNDQ0NDM0N2U1M2QzYjViOTQ0NGM4MTQyYTc1NGQ0NTlkZmM4YzE3MTgzYjUzNDAiLCJpYXQiOjE3MDQ0MzA1NzYuMDgzNTgsIm5iZiI6MTcwNDQzMDU3Ni4wODM1ODIsImV4cCI6MTczNjA1Mjk3Ni4wNzc4NzEsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.sjWnjnnrlDwiSOSMrPv5wySPaKVrzCcWxOodeln2Vt2WZKUAeOLprzBvN6IA97mubGHK_oVRr0Uujw06Ys5oBFhv97okrX6_gt2MXwF1GN2WhElwOIjAbH3iLbUaIZWautDasTFt-Fx7gCgi6qZGRwp7hwY6lV97zEdikGpFSgF1htQo52MapElWf2rsa0w-wzQdK8NOI1YFSLcP9Wugq2VuDm25VWbF-O3wd3RPxX7ERVBN3X936AofCJZbm21xPnaKL8bBpzKyk6wR9bem4fJdtC_sxb-HvDpwf-V5fEakt8X2bPKIgYfvlCudEB1QABuFZdwMdk4l5QUS1Xyp-avVwhhbj0hIlTISQQjGRQx7yrO1roVEXf2FTNIV-hTadJE3-qqRxN4aNBkHIR5cDcy8R6WhC1OG9klAYyCdlZFnDrgLNsrIkshMis5T9SFKO5Tibmg_K2SscKdExrfmMT8ZO-6O-FekwjZp7VuZZztI62Zv5ajMaZL3xfUrAXTZDoeZ6FjRfDSQkRGHKG4ZpfDLWmxHtcaJMsBhdC7Nd4TvbAMeQ-RpnqJHUxKruRXgC15rPDawwy2XisFP96_EGBN2KGfaO-TnUnX9p8Ttm9wBVd9MSJTI-kDVHmtm7RuuUlE-17DZVGZAtF1GB8u759jUkXzgjG2EKJUp6XVZAo4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{site}}/dinh/tich-diem/tichdiem-backend/public/api/points/delete/4",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"dinh",
+								"tich-diem",
+								"tichdiem-backend",
+								"public",
+								"api",
+								"points",
+								"delete",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Gifts",
+			"item": [
+				{
+					"name": "Get Gifts All",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmJmYjQ2MDBkODY5ZDU2N2U0YmE2MGZiNzRiZDM0YmYyNDQ0NDM0N2U1M2QzYjViOTQ0NGM4MTQyYTc1NGQ0NTlkZmM4YzE3MTgzYjUzNDAiLCJpYXQiOjE3MDQ0MzA1NzYuMDgzNTgsIm5iZiI6MTcwNDQzMDU3Ni4wODM1ODIsImV4cCI6MTczNjA1Mjk3Ni4wNzc4NzEsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.sjWnjnnrlDwiSOSMrPv5wySPaKVrzCcWxOodeln2Vt2WZKUAeOLprzBvN6IA97mubGHK_oVRr0Uujw06Ys5oBFhv97okrX6_gt2MXwF1GN2WhElwOIjAbH3iLbUaIZWautDasTFt-Fx7gCgi6qZGRwp7hwY6lV97zEdikGpFSgF1htQo52MapElWf2rsa0w-wzQdK8NOI1YFSLcP9Wugq2VuDm25VWbF-O3wd3RPxX7ERVBN3X936AofCJZbm21xPnaKL8bBpzKyk6wR9bem4fJdtC_sxb-HvDpwf-V5fEakt8X2bPKIgYfvlCudEB1QABuFZdwMdk4l5QUS1Xyp-avVwhhbj0hIlTISQQjGRQx7yrO1roVEXf2FTNIV-hTadJE3-qqRxN4aNBkHIR5cDcy8R6WhC1OG9klAYyCdlZFnDrgLNsrIkshMis5T9SFKO5Tibmg_K2SscKdExrfmMT8ZO-6O-FekwjZp7VuZZztI62Zv5ajMaZL3xfUrAXTZDoeZ6FjRfDSQkRGHKG4ZpfDLWmxHtcaJMsBhdC7Nd4TvbAMeQ-RpnqJHUxKruRXgC15rPDawwy2XisFP96_EGBN2KGfaO-TnUnX9p8Ttm9wBVd9MSJTI-kDVHmtm7RuuUlE-17DZVGZAtF1GB8u759jUkXzgjG2EKJUp6XVZAo4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/gifts",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"gifts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Gifts Customer",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmJmYjQ2MDBkODY5ZDU2N2U0YmE2MGZiNzRiZDM0YmYyNDQ0NDM0N2U1M2QzYjViOTQ0NGM4MTQyYTc1NGQ0NTlkZmM4YzE3MTgzYjUzNDAiLCJpYXQiOjE3MDQ0MzA1NzYuMDgzNTgsIm5iZiI6MTcwNDQzMDU3Ni4wODM1ODIsImV4cCI6MTczNjA1Mjk3Ni4wNzc4NzEsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.sjWnjnnrlDwiSOSMrPv5wySPaKVrzCcWxOodeln2Vt2WZKUAeOLprzBvN6IA97mubGHK_oVRr0Uujw06Ys5oBFhv97okrX6_gt2MXwF1GN2WhElwOIjAbH3iLbUaIZWautDasTFt-Fx7gCgi6qZGRwp7hwY6lV97zEdikGpFSgF1htQo52MapElWf2rsa0w-wzQdK8NOI1YFSLcP9Wugq2VuDm25VWbF-O3wd3RPxX7ERVBN3X936AofCJZbm21xPnaKL8bBpzKyk6wR9bem4fJdtC_sxb-HvDpwf-V5fEakt8X2bPKIgYfvlCudEB1QABuFZdwMdk4l5QUS1Xyp-avVwhhbj0hIlTISQQjGRQx7yrO1roVEXf2FTNIV-hTadJE3-qqRxN4aNBkHIR5cDcy8R6WhC1OG9klAYyCdlZFnDrgLNsrIkshMis5T9SFKO5Tibmg_K2SscKdExrfmMT8ZO-6O-FekwjZp7VuZZztI62Zv5ajMaZL3xfUrAXTZDoeZ6FjRfDSQkRGHKG4ZpfDLWmxHtcaJMsBhdC7Nd4TvbAMeQ-RpnqJHUxKruRXgC15rPDawwy2XisFP96_EGBN2KGfaO-TnUnX9p8Ttm9wBVd9MSJTI-kDVHmtm7RuuUlE-17DZVGZAtF1GB8u759jUkXzgjG2EKJUp6XVZAo4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/gifts/KH03",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"gifts",
+								"KH03"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Gifts",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmJmYjQ2MDBkODY5ZDU2N2U0YmE2MGZiNzRiZDM0YmYyNDQ0NDM0N2U1M2QzYjViOTQ0NGM4MTQyYTc1NGQ0NTlkZmM4YzE3MTgzYjUzNDAiLCJpYXQiOjE3MDQ0MzA1NzYuMDgzNTgsIm5iZiI6MTcwNDQzMDU3Ni4wODM1ODIsImV4cCI6MTczNjA1Mjk3Ni4wNzc4NzEsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.sjWnjnnrlDwiSOSMrPv5wySPaKVrzCcWxOodeln2Vt2WZKUAeOLprzBvN6IA97mubGHK_oVRr0Uujw06Ys5oBFhv97okrX6_gt2MXwF1GN2WhElwOIjAbH3iLbUaIZWautDasTFt-Fx7gCgi6qZGRwp7hwY6lV97zEdikGpFSgF1htQo52MapElWf2rsa0w-wzQdK8NOI1YFSLcP9Wugq2VuDm25VWbF-O3wd3RPxX7ERVBN3X936AofCJZbm21xPnaKL8bBpzKyk6wR9bem4fJdtC_sxb-HvDpwf-V5fEakt8X2bPKIgYfvlCudEB1QABuFZdwMdk4l5QUS1Xyp-avVwhhbj0hIlTISQQjGRQx7yrO1roVEXf2FTNIV-hTadJE3-qqRxN4aNBkHIR5cDcy8R6WhC1OG9klAYyCdlZFnDrgLNsrIkshMis5T9SFKO5Tibmg_K2SscKdExrfmMT8ZO-6O-FekwjZp7VuZZztI62Zv5ajMaZL3xfUrAXTZDoeZ6FjRfDSQkRGHKG4ZpfDLWmxHtcaJMsBhdC7Nd4TvbAMeQ-RpnqJHUxKruRXgC15rPDawwy2XisFP96_EGBN2KGfaO-TnUnX9p8Ttm9wBVd9MSJTI-kDVHmtm7RuuUlE-17DZVGZAtF1GB8u759jUkXzgjG2EKJUp6XVZAo4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ma_khach_hang\": \"KH03\",\r\n    \"ten_phan_qua\": \"Áo đi mưa\",\r\n    \"so_diem_tru\": \"5\",\r\n    \"dia_chi_nhan_qua\": \"93 Bạch Mai\",\r\n    \"trang_thai\": \"đang chuyển\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/gifts/save",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"gifts",
+								"save"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Gifts",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmJmYjQ2MDBkODY5ZDU2N2U0YmE2MGZiNzRiZDM0YmYyNDQ0NDM0N2U1M2QzYjViOTQ0NGM4MTQyYTc1NGQ0NTlkZmM4YzE3MTgzYjUzNDAiLCJpYXQiOjE3MDQ0MzA1NzYuMDgzNTgsIm5iZiI6MTcwNDQzMDU3Ni4wODM1ODIsImV4cCI6MTczNjA1Mjk3Ni4wNzc4NzEsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.sjWnjnnrlDwiSOSMrPv5wySPaKVrzCcWxOodeln2Vt2WZKUAeOLprzBvN6IA97mubGHK_oVRr0Uujw06Ys5oBFhv97okrX6_gt2MXwF1GN2WhElwOIjAbH3iLbUaIZWautDasTFt-Fx7gCgi6qZGRwp7hwY6lV97zEdikGpFSgF1htQo52MapElWf2rsa0w-wzQdK8NOI1YFSLcP9Wugq2VuDm25VWbF-O3wd3RPxX7ERVBN3X936AofCJZbm21xPnaKL8bBpzKyk6wR9bem4fJdtC_sxb-HvDpwf-V5fEakt8X2bPKIgYfvlCudEB1QABuFZdwMdk4l5QUS1Xyp-avVwhhbj0hIlTISQQjGRQx7yrO1roVEXf2FTNIV-hTadJE3-qqRxN4aNBkHIR5cDcy8R6WhC1OG9klAYyCdlZFnDrgLNsrIkshMis5T9SFKO5Tibmg_K2SscKdExrfmMT8ZO-6O-FekwjZp7VuZZztI62Zv5ajMaZL3xfUrAXTZDoeZ6FjRfDSQkRGHKG4ZpfDLWmxHtcaJMsBhdC7Nd4TvbAMeQ-RpnqJHUxKruRXgC15rPDawwy2XisFP96_EGBN2KGfaO-TnUnX9p8Ttm9wBVd9MSJTI-kDVHmtm7RuuUlE-17DZVGZAtF1GB8u759jUkXzgjG2EKJUp6XVZAo4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"ma_khach_hang\": \"KH01\",\r\n    \"ten_phan_qua\": \"Áo đi mưa\",\r\n    \"so_diem_tru\": \"2\",\r\n    \"dia_chi_nhan_qua\": \"93 Bạch Mai\",\r\n    \"trang_thai\": \"đang chuyển\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/gifts/update/1",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"gifts",
+								"update",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Gifts",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmJmYjQ2MDBkODY5ZDU2N2U0YmE2MGZiNzRiZDM0YmYyNDQ0NDM0N2U1M2QzYjViOTQ0NGM4MTQyYTc1NGQ0NTlkZmM4YzE3MTgzYjUzNDAiLCJpYXQiOjE3MDQ0MzA1NzYuMDgzNTgsIm5iZiI6MTcwNDQzMDU3Ni4wODM1ODIsImV4cCI6MTczNjA1Mjk3Ni4wNzc4NzEsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.sjWnjnnrlDwiSOSMrPv5wySPaKVrzCcWxOodeln2Vt2WZKUAeOLprzBvN6IA97mubGHK_oVRr0Uujw06Ys5oBFhv97okrX6_gt2MXwF1GN2WhElwOIjAbH3iLbUaIZWautDasTFt-Fx7gCgi6qZGRwp7hwY6lV97zEdikGpFSgF1htQo52MapElWf2rsa0w-wzQdK8NOI1YFSLcP9Wugq2VuDm25VWbF-O3wd3RPxX7ERVBN3X936AofCJZbm21xPnaKL8bBpzKyk6wR9bem4fJdtC_sxb-HvDpwf-V5fEakt8X2bPKIgYfvlCudEB1QABuFZdwMdk4l5QUS1Xyp-avVwhhbj0hIlTISQQjGRQx7yrO1roVEXf2FTNIV-hTadJE3-qqRxN4aNBkHIR5cDcy8R6WhC1OG9klAYyCdlZFnDrgLNsrIkshMis5T9SFKO5Tibmg_K2SscKdExrfmMT8ZO-6O-FekwjZp7VuZZztI62Zv5ajMaZL3xfUrAXTZDoeZ6FjRfDSQkRGHKG4ZpfDLWmxHtcaJMsBhdC7Nd4TvbAMeQ-RpnqJHUxKruRXgC15rPDawwy2XisFP96_EGBN2KGfaO-TnUnX9p8Ttm9wBVd9MSJTI-kDVHmtm7RuuUlE-17DZVGZAtF1GB8u759jUkXzgjG2EKJUp6XVZAo4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/gifts/delete/3",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"gifts",
+								"delete",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "dinhth@scigroup.com.vn",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456aA",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/login",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Users",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmJmYjQ2MDBkODY5ZDU2N2U0YmE2MGZiNzRiZDM0YmYyNDQ0NDM0N2U1M2QzYjViOTQ0NGM4MTQyYTc1NGQ0NTlkZmM4YzE3MTgzYjUzNDAiLCJpYXQiOjE3MDQ0MzA1NzYuMDgzNTgsIm5iZiI6MTcwNDQzMDU3Ni4wODM1ODIsImV4cCI6MTczNjA1Mjk3Ni4wNzc4NzEsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.sjWnjnnrlDwiSOSMrPv5wySPaKVrzCcWxOodeln2Vt2WZKUAeOLprzBvN6IA97mubGHK_oVRr0Uujw06Ys5oBFhv97okrX6_gt2MXwF1GN2WhElwOIjAbH3iLbUaIZWautDasTFt-Fx7gCgi6qZGRwp7hwY6lV97zEdikGpFSgF1htQo52MapElWf2rsa0w-wzQdK8NOI1YFSLcP9Wugq2VuDm25VWbF-O3wd3RPxX7ERVBN3X936AofCJZbm21xPnaKL8bBpzKyk6wR9bem4fJdtC_sxb-HvDpwf-V5fEakt8X2bPKIgYfvlCudEB1QABuFZdwMdk4l5QUS1Xyp-avVwhhbj0hIlTISQQjGRQx7yrO1roVEXf2FTNIV-hTadJE3-qqRxN4aNBkHIR5cDcy8R6WhC1OG9klAYyCdlZFnDrgLNsrIkshMis5T9SFKO5Tibmg_K2SscKdExrfmMT8ZO-6O-FekwjZp7VuZZztI62Zv5ajMaZL3xfUrAXTZDoeZ6FjRfDSQkRGHKG4ZpfDLWmxHtcaJMsBhdC7Nd4TvbAMeQ-RpnqJHUxKruRXgC15rPDawwy2XisFP96_EGBN2KGfaO-TnUnX9p8Ttm9wBVd9MSJTI-kDVHmtm7RuuUlE-17DZVGZAtF1GB8u759jUkXzgjG2EKJUp6XVZAo4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "dinhth@scigroup.com.vn",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456aA",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/users",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Triệu Hữu Định\",\r\n    \"email\": \"dinhth4@scigroup.com.vn\",\r\n    \"phone\": \"0987623038\",\r\n    \"address\": \"Khâm Thiên\",\r\n    \"ma_khach_hang\": \"KH01\",\r\n    \"tong_so_diem\": \"20\",\r\n    \"password\": \"123456aA\",\r\n    \"c_password\": \"123456aA\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/register",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "site",
+			"value": "https://scigroup.com.vn",
+			"type": "string"
+		}
+	]
+}
