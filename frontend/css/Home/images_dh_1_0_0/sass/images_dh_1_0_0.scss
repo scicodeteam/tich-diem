@@ -1,0 +1,29 @@
+.images_dh_1_0_0 {
+  &__box {
+    display: flex;
+    gap: 12px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 2px 8px 2px #d7d5d1;
+    padding: 40px;
+  }
+  &__pic {
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 12px;
+    }
+  }
+  @media (max-width: 430px) {
+    &__box {
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    &__pic {
+      width: calc(50% - 6px);
+    }
+  }
+}
