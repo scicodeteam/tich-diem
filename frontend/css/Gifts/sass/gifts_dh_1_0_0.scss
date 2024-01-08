@@ -1,0 +1,215 @@
+.gifts_dh_1_0_0 {
+    &__box {
+        padding: 30px;
+        background: #fff;
+        border-radius: 12px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 2px 8px 2px #d7d5d1;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: calc(20% - 10px);
+        border: 1px solid #ccc;
+        border-radius: 12px;
+    }
+    &__pic {
+        width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 12px;
+        }
+    }
+    &__text,
+    &__points,
+    &__btn {
+        text-align: center;
+    }
+    &__text {
+        font-size: 16px;
+    }
+    &__points {
+        padding: 20px;
+        font-size: 15px;
+        span {
+            font-weight: 600;
+        }
+    }
+    &__line {
+        border: 3px solid #2386c7;
+        border-radius: 12px;
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+    }
+    &__btn {
+        background: #2386c7;
+        color: #fff;
+        font-size: 15px;
+        margin: 20px auto;
+        padding: 8px;
+        width: 100px;
+        display: block;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all .3s linear;
+        &:hover {
+            background: #55ade9;
+            transition: all .3s linear;
+        }
+    }
+    &__overlay {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 100;
+        opacity: .7;
+        background: rgba(0,0,0,.9);
+    }
+    &__popup {
+        width: 720px;
+        padding: 20px;
+        border: 2px solid #2386c7;
+        border-radius: 12px;
+        display: block;
+        margin: 0 auto;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 110;
+        background: #fff;
+        #close-form {
+            cursor: pointer;
+            font-size: 8px;
+            padding: 6px 8px;
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            background: #fff;
+            border: 1px solid #2386c7;
+            border-radius: 100%;
+        }
+    }
+    &__popupTitle {
+        text-align: center;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    &__popupName {
+        text-align: center;
+        color: #2386c7;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    &__popupPoints {
+        text-align: center;
+        color: #2386c7;
+        font-weight: 600;
+        font-size: 23px;
+    }
+    &__popupPic {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+    &__popupNote {
+        text-align: center;
+        color: #2386c7;
+        font-style: italic;
+        font-size: 18px;
+    }
+    &__popupBtn {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 13px;
+        margin-top: 10px;
+    }
+    &__btn1,
+    &__btn2 {
+        color: #fff;
+        padding: 12px;
+        font-size: 17px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    &__btn1 {
+        background: #2853e2;
+        transition: all .3s linear;  
+        &:hover {
+            background: #1e3b9b;
+            transition: all .3s linear;
+        }      
+    }
+    &__btn2 {
+        background: #2386c7;
+        transition: all .3s linear;
+        &:hover {
+            background: #0567a8;
+            transition: all .3s linear;
+        }
+    }
+    @media (max-width: 820px) {
+        &__item {
+            width: calc(33% - 6px);
+        }
+    }
+    @media (max-width: 430px) {
+        &__item {
+            width: calc(50% - 6px);
+        }
+        &__line {
+            width: 120px;
+        }
+        &__popup {
+            width: 88%;
+        }
+        &__popupTitle {
+            font-size: 22px;
+        }
+        &__popupName,
+        &__popupPoints {
+            font-size: 20px;
+        }
+        &__popupPic {
+            width: 100%;
+        }
+        &__popupNote {
+            font-size: 14px;
+        }
+        &__btn1,
+        &__btn2 {
+            padding: 12px;
+            font-size: 14px;
+        }
+    }
+    @media (max-width: 375px) {
+        &__line {
+            width: 106px;
+        }
+    }
+    @media (max-width: 320px) {
+        &__item {
+            width: 100%;
+        }
+    }
+    @media (max-width: 280px) {
+        &__btn1,
+        &__btn2 {
+            padding: 8px;
+            font-size: 10px;
+        }
+    }
+}

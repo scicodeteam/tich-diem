@@ -1,0 +1,102 @@
+.history_dh_1_0_0 {
+    padding-top: 25px;
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    &__title {
+        margin: 0;
+        font-weight: 600;
+        font-size: 26px;
+    }
+    &__btn {
+        margin: 0;
+        background: #2386c7;
+        color: #fff;
+        padding: 8px 10px;
+        border-radius: 8px;
+    }
+    &__box {
+        padding: 30px;
+        background: #fff;
+        border-radius: 12px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 2px 8px 2px #d7d5d1;
+    }
+    &__company {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name {
+        margin: 0;
+        font-weight: 600;
+        font-size: 22px;
+        padding: 10px 0;
+    }
+    &__address {
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+    }
+    &__point {
+        font-size: 25px;
+        margin-bottom: 0;
+        span {
+            color: #2386c7;
+            font-weight: 600;
+        }
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    &__textLeft {
+        width: 125px;
+        font-weight: 600;
+    }
+    &__info {
+        padding-top: 10px;
+    }
+    &__history {
+        margin-top: 20px;
+    }
+    &__tab {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 8px;
+    }
+    &__textTab {
+        padding-bottom: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: all .3s linear;
+        &:hover {
+            color: #55ade9;
+            border-bottom: 1px solid #55ade9;
+            transition: all .3s linear;
+        }
+        &.current {
+            border-bottom: 1px solid #2386c7;
+            color: #2386c7;
+        }
+    }
+    .tab-content {
+        padding: 0px;
+    }
+    @media (max-width: 430px) {
+        &__company {
+            flex-direction: column-reverse;
+        }
+    }
+    @media (max-width: 390px) {
+        &__title {
+            font-size: 22px;
+        }
+        &__btn {
+            padding: 5px 8px;
+        }
+    }
+}
