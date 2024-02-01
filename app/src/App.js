@@ -12,7 +12,7 @@ import PageNotFound from './screens/PageNotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/app/tich-diem">
       <Routes>
         <Route index element={<ScreenHome />} />
         <Route path="/dang-nhap" element={<ScreenLogin />} />
