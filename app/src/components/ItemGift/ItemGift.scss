@@ -1,11 +1,13 @@
 .gifts_dh_1_0_0 {
   &__item {
     width: calc(20% - 10px);
+    height: 470px;
     border: 1px solid #ccc;
     border-radius: 12px;
   }
   &__pic {
     width: 100%;
+    height: 250px;
     img {
       width: 100%;
       height: auto;
@@ -20,6 +22,7 @@
   }
   &__text {
     font-size: 16px;
+    padding: 10px 5px;
   }
   &__points {
     padding: 20px;

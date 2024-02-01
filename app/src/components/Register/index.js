@@ -75,7 +75,7 @@ const Register = ({ close }) => {
     <div className="tab-content current">
       <div className="login_dh_1_0_0__boxForm">
         <div className="login_dh_1_0_0__pic">
-          <img width="1000" height="1000" src={`${process.env.PUBLIC_URL}/images/banner3.png`} alt="" />
+          <img width="1000" height="1000" src={`${process.env.PUBLIC_URL}/images/banner-intro.jpg`} alt="" />
         </div>
         <div className="login_dh_1_0_0__form">
           <div className="login_dh_1_0_0__boxItem">

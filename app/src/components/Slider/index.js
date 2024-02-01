@@ -16,22 +16,19 @@ const Carousel = () => {
           <div className="slider_dh_1_0_0__boxLeft">
             <Slider {...settings}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/slider1.jpg`} alt="" />
+                <img src={`${process.env.PUBLIC_URL}/images/slide.jpg`} alt="" />
               </div>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/slider2.jpg`} alt="" />
-              </div>
-              <div>
-                <img src={`${process.env.PUBLIC_URL}/images/slider3.jpg`} alt="" />
+                <img src={`${process.env.PUBLIC_URL}/images/slide.jpg`} alt="" />
               </div>
             </Slider>
           </div>
           <div className="slider_dh_1_0_0__boxRight">
             <div className="slider_dh_1_0_0__item">
-              <img src={`${process.env.PUBLIC_URL}/images/banner1.png`} alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/banner1.jpg`} alt="" />
             </div>
             <div className="slider_dh_1_0_0__item">
-              <img src={`${process.env.PUBLIC_URL}/images/banner2.png`} alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/banner2.jpg`} alt="" />
             </div>
           </div>
         </div>

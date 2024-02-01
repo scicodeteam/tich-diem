@@ -8,7 +8,7 @@ const Benefit = () => {
           <div className="benefits_dh_1_0_0__item">
             <p>
               ÁP DỤNG TOÀN QUỐC <br />
-              <span>khi mua sản phẩm Doppelherz</span>
+              <span>khi sử dụng dịch vụ</span>
             </p>
           </div>
           <div className="benefits_dh_1_0_0__item">
