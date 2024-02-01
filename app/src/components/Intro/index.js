@@ -7,16 +7,15 @@ const Intro = () => {
         <div className="intro_dh_1_0_0__box">
           <h1 className="intro_dh_1_0_0__title">GIỚI THIỆU CHƯƠNG TRÌNH KHÁCH HÀNG THÂN THIẾT</h1>
           <p className="intro_dh_1_0_0__desc">
-            Cùng tham gia chương trình Khách hàng thân thiết cùng Doppelherz. để tận hưởng những đặc quyền cho riêng
-            mình. Tích điểm tại bất cứ nơi đâu để nhận những phần quà hấp dẫn từ thương hiệu số 1 tại Đức. Hơn thế nữa,
-            Doppelherz ra mắt “Tem tích điểm“ trên mỗi hộp sản phẩm giúp khách hàng tích điểm dễ dàng hơn chỉ với 01 lần
-            quét mã.
+            Cùng tham gia chương trình Khách hàng thân thiết cùng SCI. để tận hưởng những đặc quyền cho riêng mình. Tích
+            điểm tại bất cứ nơi đâu để nhận những phần quà hấp dẫn. Hơn thế nữa, SCI ra mắt "Tem tích điểm" trên mỗi hộp
+            sản phẩm giúp khách hàng tích điểm dễ dàng hơn chỉ với 01 lần quét mã.
           </p>
           <div className="intro_dh_1_0_0__itemBox">
             <div className="intro_dh_1_0_0__itemBoxLeft">
               <p className="intro_dh_1_0_0__text">
                 <span>1. Tên chương trình:</span>
-                Khách hàng thân thiết cùng Doppelherz.
+                Khách hàng thân thiết cùng SCI.
               </p>
               <p className="intro_dh_1_0_0__text">
                 <span>2. Thời gian áp dụng:</span>
@@ -24,22 +23,21 @@ const Intro = () => {
               </p>
               <p className="intro_dh_1_0_0__text">
                 <span>3. Đối tượng áp dụng:</span>
-                Tất cả các khách hàng mua sản phẩm Doppelherz tại các hiệu thuốc, nhà thuốc, chuỗi cửa hàng, sàn thương
-                mại điện tử, website, kênh online.. là đại lý bán hàng, nhà phân phối chính thức của Doppelherz.
+                Tất cả các khách hàng sử dụng dịch vụ của SCI
               </p>
               <p className="intro_dh_1_0_0__text">
                 <span>Lưu ý:</span>
-                Chương trình dành riêng cho người tiêu dùng cuối và không áp dụng cho khách hàng là đại lý/nhà phân phối
-                chính thức của Doppelherz. Mỗi mã QR chỉ được quét và tích điểm 01 lần duy nhất cho người tiêu dùng
-                cuối. Công ty sẽ truy cứu trách nhiệm đối với đại lý/nhà phân phối tham gia chương trình này.
+                Chương trình dành riêng cho người tiêu dùng cuối. Mỗi mã QR chỉ được quét và tích điểm 01 lần duy nhất
+                cho người tiêu dùng cuối. Công ty sẽ truy cứu trách nhiệm đối với đại lý/nhà phân phối tham gia chương
+                trình này.
               </p>
               <div className="intro_dh_1_0_0__text">
                 <span>4. Nội dung chương trình:</span>
                 <ul>
                   <li>
-                    Mặt trong mỗi vỏ hộp sản phẩm Doppelherz sẽ có in 01 “Tem tích điểm”. Khách hàng quét mã QR của tem,
-                    đăng nhập hệ thống tích điểm tichdiem.doppelherz.vn, tích lũy điểm số sau mỗi lần mua sản phẩm, quy
-                    đổi quà tương ứng khi đủ điều kiện.
+                    Mặt trong mỗi vỏ hộp sản phẩm sẽ có in 01 "Tem tích điểm". Khách hàng quét mã QR của tem, đăng nhập
+                    hệ thống tích điểm tichdiem.doppelherz.vn, tích lũy điểm số sau mỗi lần mua sản phẩm, quy đổi quà
+                    tương ứng khi đủ điều kiện.
                   </li>
                   <li>
                     Chương trình bắt đầu áp dụng với sản phẩm Aktiv-Meno, các sản phẩm khác sẽ liên tục được cập nhật
@@ -53,7 +51,7 @@ const Intro = () => {
               </div>
             </div>
             <div className="intro_dh_1_0_0__itemBoxRight">
-              <img width="181" height="181" src={`${process.env.PUBLIC_URL}/images/banner-intro.png`} alt="" />
+              <img width="181" height="181" src={`${process.env.PUBLIC_URL}/images/banner-intro.jpg`} alt="" />
             </div>
           </div>
         </div>

@@ -16,6 +16,7 @@ const ProductList = ({ data }) => {
     const item = dataSlice.map((item, index) => <ProductItem key={index} data={item} />);
     rows.push(item);
   }
+  console.log('rows: ', rows);
   return (
     <section className="product_dh_1_0_0">
       <div className="container">

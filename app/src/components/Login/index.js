@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useMutation } from '@tanstack/react-query';
 import { getTokenFn } from '../../apis/auth';
+import { Link } from 'react-router-dom';
 
 const Login = ({ close }) => {
   const initial = {
@@ -56,7 +57,7 @@ const Login = ({ close }) => {
     <div className="tab-content current" id="login">
       <div className="login_dh_1_0_0__boxForm">
         <div className="login_dh_1_0_0__pic">
-          <img width="1000" height="1000" src={`${process.env.PUBLIC_URL}/images/banner3.png`} alt="" />
+          <img width="1000" height="1000" src={`${process.env.PUBLIC_URL}/images/banner-intro.jpg`} alt="" />
         </div>
         <div className="login_dh_1_0_0__form">
           <div className="login_dh_1_0_0__item">
@@ -81,6 +82,7 @@ const Login = ({ close }) => {
             />
             {message.includes('password') && <p className="login_dh_1_0_0__message">Không được để trống</p>}
           </div>
+          <Link to="/dang-ky">Bạn chưa có tài khoản</Link>
           <a href="/" className="login_dh_1_0_0__forgot">
             Quên mật khẩu
           </a>
