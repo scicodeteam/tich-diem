@@ -23,6 +23,8 @@ Route::post('register', 'App\Http\Controllers\UserController@register');
 
 Route::group(['middleware' => 'auth:api'], function() {
     Route::get('users', 'App\Http\Controllers\UserController@users');
+    Route::put('/users/update',[UserController::class, 'update']);
+    Route::post('/users/reset-password', [UserController::class, 'resetPassword']);
 
     Route::get('/gifts',[GiftController::class, 'index']);
     Route::get('/gifts/{id}',[GiftController::class, 'show']);

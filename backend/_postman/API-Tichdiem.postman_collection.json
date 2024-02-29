@@ -21,7 +21,7 @@
 							},
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYjljMTg5M2YwYjQyNGJlNzkyOGFhMDhlY2U2MGQzNDg1MTY2NGRlYzg3MTBlYWE0NzA3MzE2ODc5Mzc5NDJjMzM1YjFlY2NmMDM1ZGQxZDEiLCJpYXQiOjE3MDQ0NDAxMzQuODIxMzY1LCJuYmYiOjE3MDQ0NDAxMzQuODIxMzY4LCJleHAiOjE3MzYwNjI1MzQuODE0NjQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.cTwmxYxRkGaL3dqHM-jA5Yl07_889v6q0UM2qH0XhjiEK_xnHfjxeVv4vsoSm94NqgkI2f9gqbs_v8wcczTBeu_J3g4pYBB45dS_4qc8kizxTzBPR8Xl7L1uPV2vzqcDG9NI_TTSecDWck2L4a168qToiI2sAVKzLZa08hH3vDIwTvngCfGRWJM73me5crWzmbs5J-adOsY0iJZcNMnsxO_cH9Yzgm6d7sDvVaH4SV4FHYiT_fu9i1wChjhN5hYtCq6FfW-8NOC07eJr_nPapOCczpeIjGQU6pT1qll2tBU2DUDNKAZdJXC0XmCiuRKv0xaXNj6AOL3r-lOJFqhfS49TvcLNaFBOsAqzx86KZoMoL3d316xfAOJJ7HzFeFLVOGHWgvUk_ixcPgvhnU8UWDliQhtginuqWZcC1AvFZ83-UOAEDKdexDhZwI8M6Qa0ZgxOXfjX5nPE1s19t7mvC22tLAczz1hesII9sbQmUrHebL6kS96e_m_5lNKlYdz91RyyTVx8gRp7fOpOB4OqWqvoJa5XF-CZlQx_Gg0xI9vZJzkHN0NruJUhJM04uEfqMu2yhiWIBISHPHMznMttpcq-mBKRVMAZDnJqCRRncn4wwIUcjme-BjteKgGGp5jhKsG8Sb0jsq9t1XjfegR1tCU83HG6f_xmw7SeSSO44XU",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOWM2OWFhNjM5MzZlMjEzOWU4MmFiMTEwM2FmNjM5ODA1MzdhYzVhMDcxODFmYzY1MmQ3MWQzYmViNGFhNjMzNjc4Y2MxNjc1YWQ2OGIwNTAiLCJpYXQiOjE3MDU5Nzc4NTUuNjk2NTg4LCJuYmYiOjE3MDU5Nzc4NTUuNjk2NTkxLCJleHAiOjE3Mzc2MDAyNTUuNjkxNzYzLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.bPKL9h4xrEbFvDOrcDusxwswKI1OC4R1h63IDKmIJxEmXRAeXFb-tAmO5EtdGfm-TBZMmtdjUa72-nqLGaGulXhws1OJgyOSCa0OFGNA0fck8J_XHdRGgJDDwNLs4cP7UVaHXWhX6Myl4T-aMh36J5RthqwRROAaZYPlVwZeKOPHXwvpap3Gml0svaWEZeyHl_hapr6_XKAHGJdkC6DXwljBkXMKx3d66U99jcia4ZmMfiR1vIaW7hhxaIfUizlkMxA2LwKrJByblz038nHPy1IKTXPxLAGjd-M1g28fvv8lgezgk9n5xIAUAfkQAqMF9f_sge3r0K56OvD7FSt7Cm5RYXGVtJWGQBfMLmYhuAFzFA1mIgzhdKHiDcNAjv-WQiDvk9_B4KIbn36QYfkk9hhNwBKfssS_JJr1_fwWnxRM3lQ4rxRHd6hkFETVCiKMUz1WnQwaw4EmMWUk2mbfopAQTgRthnSN-4Xmj4xSLWMZIwhPioSGbKnTVlgq26Z80p2LoxiXATbrpdd1DLovLGzrteTzzk08WaiqsE-mOpDanCHQzdFfDXB3f91K6mJb0Zna6cQ3RESMojGSSy3zuuxeGMj8zp_Rgyf6QuCFA4ZJUaZBtEwmXH_uUNquB-5FXAL1oPWDspbW_-IJ9BbMjlT-tAlg8rTUKHIVCjT7eio",
 								"type": "text"
 							}
 						],
@@ -54,7 +54,7 @@
 							},
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYjljMTg5M2YwYjQyNGJlNzkyOGFhMDhlY2U2MGQzNDg1MTY2NGRlYzg3MTBlYWE0NzA3MzE2ODc5Mzc5NDJjMzM1YjFlY2NmMDM1ZGQxZDEiLCJpYXQiOjE3MDQ0NDAxMzQuODIxMzY1LCJuYmYiOjE3MDQ0NDAxMzQuODIxMzY4LCJleHAiOjE3MzYwNjI1MzQuODE0NjQ3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.cTwmxYxRkGaL3dqHM-jA5Yl07_889v6q0UM2qH0XhjiEK_xnHfjxeVv4vsoSm94NqgkI2f9gqbs_v8wcczTBeu_J3g4pYBB45dS_4qc8kizxTzBPR8Xl7L1uPV2vzqcDG9NI_TTSecDWck2L4a168qToiI2sAVKzLZa08hH3vDIwTvngCfGRWJM73me5crWzmbs5J-adOsY0iJZcNMnsxO_cH9Yzgm6d7sDvVaH4SV4FHYiT_fu9i1wChjhN5hYtCq6FfW-8NOC07eJr_nPapOCczpeIjGQU6pT1qll2tBU2DUDNKAZdJXC0XmCiuRKv0xaXNj6AOL3r-lOJFqhfS49TvcLNaFBOsAqzx86KZoMoL3d316xfAOJJ7HzFeFLVOGHWgvUk_ixcPgvhnU8UWDliQhtginuqWZcC1AvFZ83-UOAEDKdexDhZwI8M6Qa0ZgxOXfjX5nPE1s19t7mvC22tLAczz1hesII9sbQmUrHebL6kS96e_m_5lNKlYdz91RyyTVx8gRp7fOpOB4OqWqvoJa5XF-CZlQx_Gg0xI9vZJzkHN0NruJUhJM04uEfqMu2yhiWIBISHPHMznMttpcq-mBKRVMAZDnJqCRRncn4wwIUcjme-BjteKgGGp5jhKsG8Sb0jsq9t1XjfegR1tCU83HG6f_xmw7SeSSO44XU",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOWM2OWFhNjM5MzZlMjEzOWU4MmFiMTEwM2FmNjM5ODA1MzdhYzVhMDcxODFmYzY1MmQ3MWQzYmViNGFhNjMzNjc4Y2MxNjc1YWQ2OGIwNTAiLCJpYXQiOjE3MDU5Nzc4NTUuNjk2NTg4LCJuYmYiOjE3MDU5Nzc4NTUuNjk2NTkxLCJleHAiOjE3Mzc2MDAyNTUuNjkxNzYzLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.bPKL9h4xrEbFvDOrcDusxwswKI1OC4R1h63IDKmIJxEmXRAeXFb-tAmO5EtdGfm-TBZMmtdjUa72-nqLGaGulXhws1OJgyOSCa0OFGNA0fck8J_XHdRGgJDDwNLs4cP7UVaHXWhX6Myl4T-aMh36J5RthqwRROAaZYPlVwZeKOPHXwvpap3Gml0svaWEZeyHl_hapr6_XKAHGJdkC6DXwljBkXMKx3d66U99jcia4ZmMfiR1vIaW7hhxaIfUizlkMxA2LwKrJByblz038nHPy1IKTXPxLAGjd-M1g28fvv8lgezgk9n5xIAUAfkQAqMF9f_sge3r0K56OvD7FSt7Cm5RYXGVtJWGQBfMLmYhuAFzFA1mIgzhdKHiDcNAjv-WQiDvk9_B4KIbn36QYfkk9hhNwBKfssS_JJr1_fwWnxRM3lQ4rxRHd6hkFETVCiKMUz1WnQwaw4EmMWUk2mbfopAQTgRthnSN-4Xmj4xSLWMZIwhPioSGbKnTVlgq26Z80p2LoxiXATbrpdd1DLovLGzrteTzzk08WaiqsE-mOpDanCHQzdFfDXB3f91K6mJb0Zna6cQ3RESMojGSSy3zuuxeGMj8zp_Rgyf6QuCFA4ZJUaZBtEwmXH_uUNquB-5FXAL1oPWDspbW_-IJ9BbMjlT-tAlg8rTUKHIVCjT7eio",
 								"type": "text"
 							}
 						],
@@ -180,19 +180,19 @@
 							}
 						],
 						"url": {
-							"raw": "{{site}}/dinh/tich-diem/tichdiem-backend/public/api/points/delete/4",
+							"raw": "{{site}}/app/tichdiem/backend/public/api/points/delete/7",
 							"host": [
 								"{{site}}"
 							],
 							"path": [
-								"dinh",
-								"tich-diem",
-								"tichdiem-backend",
+								"app",
+								"tichdiem",
+								"backend",
 								"public",
 								"api",
 								"points",
 								"delete",
-								"4"
+								"7"
 							]
 						}
 					},
@@ -369,12 +369,12 @@
 							},
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmJmYjQ2MDBkODY5ZDU2N2U0YmE2MGZiNzRiZDM0YmYyNDQ0NDM0N2U1M2QzYjViOTQ0NGM4MTQyYTc1NGQ0NTlkZmM4YzE3MTgzYjUzNDAiLCJpYXQiOjE3MDQ0MzA1NzYuMDgzNTgsIm5iZiI6MTcwNDQzMDU3Ni4wODM1ODIsImV4cCI6MTczNjA1Mjk3Ni4wNzc4NzEsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.sjWnjnnrlDwiSOSMrPv5wySPaKVrzCcWxOodeln2Vt2WZKUAeOLprzBvN6IA97mubGHK_oVRr0Uujw06Ys5oBFhv97okrX6_gt2MXwF1GN2WhElwOIjAbH3iLbUaIZWautDasTFt-Fx7gCgi6qZGRwp7hwY6lV97zEdikGpFSgF1htQo52MapElWf2rsa0w-wzQdK8NOI1YFSLcP9Wugq2VuDm25VWbF-O3wd3RPxX7ERVBN3X936AofCJZbm21xPnaKL8bBpzKyk6wR9bem4fJdtC_sxb-HvDpwf-V5fEakt8X2bPKIgYfvlCudEB1QABuFZdwMdk4l5QUS1Xyp-avVwhhbj0hIlTISQQjGRQx7yrO1roVEXf2FTNIV-hTadJE3-qqRxN4aNBkHIR5cDcy8R6WhC1OG9klAYyCdlZFnDrgLNsrIkshMis5T9SFKO5Tibmg_K2SscKdExrfmMT8ZO-6O-FekwjZp7VuZZztI62Zv5ajMaZL3xfUrAXTZDoeZ6FjRfDSQkRGHKG4ZpfDLWmxHtcaJMsBhdC7Nd4TvbAMeQ-RpnqJHUxKruRXgC15rPDawwy2XisFP96_EGBN2KGfaO-TnUnX9p8Ttm9wBVd9MSJTI-kDVHmtm7RuuUlE-17DZVGZAtF1GB8u759jUkXzgjG2EKJUp6XVZAo4",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmRiNThlOWYwNzliMzA0NzUwNDc0MmI1MzlmYTgxNTU1YjcxOTFlYjE3MTAxM2EwMjNjODIzMTgyNjE0ZTZjOWM1NDUxZmYxMzNjMzE5MjUiLCJpYXQiOjE3MDQ0NDE5NzQuNzk0NTk5LCJuYmYiOjE3MDQ0NDE5NzQuNzk0NjAxLCJleHAiOjE3MzYwNjQzNzQuNzg4NjEzLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.C6A7m94jMVapeCPmgl2e02fQsCGqYL9pQX5iCp6hjkawHsQdlbPGaMKOus_EYrdmalnr_MoWsPua9nlxbBvzSNw_dP1y_i_3rk7r4fPA0hxqNj9KdS_r7VZhRFHh7YTlUgqoq1996nF3yqJw9cgL0DxhDHe9RGgcbJ5yN6rKK-FiZiitcQ_8f1WvTP-N5TjUXDYrMbwmK1J5gBKyk1qCW7KWjuh6QKRTHzZSoL3X960TWicZ-5u7BzA_zIMl2SJWQzHP-2kjTQ9rtN-5YAaMhkWglA2vNSXZ2vjL-QCLeqIXG4NfO6i80YBPGAdxzigjPSC-e_uHpeT0pgf7Ml8Yc8aKnl46fNw5i79dOoHpBldbrR8DPNnVb25PKDK1ugx08nUkJWjn-WqjEvfJyR9t48bjpdTa8gg9lUCuQIEKRSmFNIW0MUJTTinC1DYU_OwphCZoo4I05WTUv7nVgpW54AMPSr3aWaWOHwVMbEbdu1_XwgpcfJfr9-7s0jcM2gTaB94N6Civdg5A2lQbJhde0PUXyTz5ui45l3kCJa_qGdnsH9Fddo0mA7NlF740S3kQ7_3r9k870cqkfDU_8h18A2Qobuw8YM1nrivjhmuPmVoIpJVLCOiJbiVFPhXNxXf7gJLhrvEwgllnkcKXIEF1IhT-DMA8PYiJoeYpg21fIpY",
 								"type": "text"
 							}
 						],
 						"url": {
-							"raw": "{{site}}/app/tichdiem/backend/public/api/gifts/delete/3",
+							"raw": "{{site}}/app/tichdiem/backend/public/api/gifts/delete/9",
 							"host": [
 								"{{site}}"
 							],
@@ -386,7 +386,7 @@
 								"api",
 								"gifts",
 								"delete",
-								"3"
+								"9"
 							]
 						}
 					},
@@ -449,7 +449,7 @@
 							},
 							{
 								"key": "Authorization",
-								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYmJmYjQ2MDBkODY5ZDU2N2U0YmE2MGZiNzRiZDM0YmYyNDQ0NDM0N2U1M2QzYjViOTQ0NGM4MTQyYTc1NGQ0NTlkZmM4YzE3MTgzYjUzNDAiLCJpYXQiOjE3MDQ0MzA1NzYuMDgzNTgsIm5iZiI6MTcwNDQzMDU3Ni4wODM1ODIsImV4cCI6MTczNjA1Mjk3Ni4wNzc4NzEsInN1YiI6IjEiLCJzY29wZXMiOltdfQ.sjWnjnnrlDwiSOSMrPv5wySPaKVrzCcWxOodeln2Vt2WZKUAeOLprzBvN6IA97mubGHK_oVRr0Uujw06Ys5oBFhv97okrX6_gt2MXwF1GN2WhElwOIjAbH3iLbUaIZWautDasTFt-Fx7gCgi6qZGRwp7hwY6lV97zEdikGpFSgF1htQo52MapElWf2rsa0w-wzQdK8NOI1YFSLcP9Wugq2VuDm25VWbF-O3wd3RPxX7ERVBN3X936AofCJZbm21xPnaKL8bBpzKyk6wR9bem4fJdtC_sxb-HvDpwf-V5fEakt8X2bPKIgYfvlCudEB1QABuFZdwMdk4l5QUS1Xyp-avVwhhbj0hIlTISQQjGRQx7yrO1roVEXf2FTNIV-hTadJE3-qqRxN4aNBkHIR5cDcy8R6WhC1OG9klAYyCdlZFnDrgLNsrIkshMis5T9SFKO5Tibmg_K2SscKdExrfmMT8ZO-6O-FekwjZp7VuZZztI62Zv5ajMaZL3xfUrAXTZDoeZ6FjRfDSQkRGHKG4ZpfDLWmxHtcaJMsBhdC7Nd4TvbAMeQ-RpnqJHUxKruRXgC15rPDawwy2XisFP96_EGBN2KGfaO-TnUnX9p8Ttm9wBVd9MSJTI-kDVHmtm7RuuUlE-17DZVGZAtF1GB8u759jUkXzgjG2EKJUp6XVZAo4",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZGM0NjgzZWNmMGMwYjM3YjdkYTQxOWZjNGRiNjg5NjliZTlkN2Q0OTY3NjJmYTIyYjNjMDkxMDY4ZmVlMWE2NzVkMTJmZWU5ODdkN2JmNzMiLCJpYXQiOjE3MDU5Nzk3NzEuNjkyNTkyLCJuYmYiOjE3MDU5Nzk3NzEuNjkyNTk1LCJleHAiOjE3Mzc2MDIxNzEuNjg1MzA3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Rl_zNaYYmlHBEZOt5EewrSv1uVNZrgdDjR0xi77jdx8BkoNWcYKiSkoyYYFRY1sD4ucVSsZLGwgehB8wapp6o3-LajXpI8_rXPIOoSVnPgJDgNmkbALKaSDvTJZ3j-wF-yNKcRiRGp5qVHD0ov-8ULa3N7aDL_XzXI1t__z7Dtni9HNMZ3DoNoyWn2GZnds_4ksR260oCZih212vBfzTJQPL_j0Y9J8_fSNNUpT_duLwx5XNOYuz7BjI3vY7eqHLW5l-FuNnzPtduFQ6bv6IaQlhdrs8mZwNcm_GrKHHZgAKZIvLoGpiQZhCXpX5-IpgTuiC6OEIL3DRM0XCtizb3Cs-i5BaEXeBlyHZJY4OOsSLcAwXmx3CiG-iCJHU46eFWPreNQlxuH6V5uGKVspkrhGWDS3SptP3iiLWKWsMG3CTMZ6x0-xbG79QJMMvYbUp4aPqwi56r3A382WNIA7pJ5ckR2E_kDuItQAB4O3C7PwqTNz_4h-yNUbsDQsKSb728o5XNvkslCSl2gnwoUVYhewm04jC2uEkgevpd3_QDZqQLecSYTcFTkRoTVSOQuhHnzX9iXDool_n1nq7UF3RydAaOCx2Ac7yttVIZG9V0IRpidA3AeySOU0p0ydDGW5gk6Uan1pWiijDpBCy7hzOwOoHkaxe1WTnNBAkShNtAyk",
 								"type": "text"
 							}
 						],
@@ -515,6 +515,103 @@
 						}
 					},
 					"response": []
+				},
+				{
+					"name": "Reset-password",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZGM0NjgzZWNmMGMwYjM3YjdkYTQxOWZjNGRiNjg5NjliZTlkN2Q0OTY3NjJmYTIyYjNjMDkxMDY4ZmVlMWE2NzVkMTJmZWU5ODdkN2JmNzMiLCJpYXQiOjE3MDU5Nzk3NzEuNjkyNTkyLCJuYmYiOjE3MDU5Nzk3NzEuNjkyNTk1LCJleHAiOjE3Mzc2MDIxNzEuNjg1MzA3LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.Rl_zNaYYmlHBEZOt5EewrSv1uVNZrgdDjR0xi77jdx8BkoNWcYKiSkoyYYFRY1sD4ucVSsZLGwgehB8wapp6o3-LajXpI8_rXPIOoSVnPgJDgNmkbALKaSDvTJZ3j-wF-yNKcRiRGp5qVHD0ov-8ULa3N7aDL_XzXI1t__z7Dtni9HNMZ3DoNoyWn2GZnds_4ksR260oCZih212vBfzTJQPL_j0Y9J8_fSNNUpT_duLwx5XNOYuz7BjI3vY7eqHLW5l-FuNnzPtduFQ6bv6IaQlhdrs8mZwNcm_GrKHHZgAKZIvLoGpiQZhCXpX5-IpgTuiC6OEIL3DRM0XCtizb3Cs-i5BaEXeBlyHZJY4OOsSLcAwXmx3CiG-iCJHU46eFWPreNQlxuH6V5uGKVspkrhGWDS3SptP3iiLWKWsMG3CTMZ6x0-xbG79QJMMvYbUp4aPqwi56r3A382WNIA7pJ5ckR2E_kDuItQAB4O3C7PwqTNz_4h-yNUbsDQsKSb728o5XNvkslCSl2gnwoUVYhewm04jC2uEkgevpd3_QDZqQLecSYTcFTkRoTVSOQuhHnzX9iXDool_n1nq7UF3RydAaOCx2Ac7yttVIZG9V0IRpidA3AeySOU0p0ydDGW5gk6Uan1pWiijDpBCy7hzOwOoHkaxe1WTnNBAkShNtAyk",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"id\": 1,\r\n    \"password\": \"123456aA\",\r\n    \"c_password\": \"123456aA\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/users/reset-password",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"users",
+								"reset-password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiN2Q0NGNmNDI3ZjZmNWQ0NDM0MGNlZDFhMDg2NGU3Y2E1ODU1MDY4ODRhYWQwZmRiODE0MmU0OGUyN2M4ZDE4MGQ4MzI0YzFkZGIyYTA1N2IiLCJpYXQiOjE3MDU5ODQ2MzAuNDI5MDI1LCJuYmYiOjE3MDU5ODQ2MzAuNDI5MDI4LCJleHAiOjE3Mzc2MDcwMzAuNDI0ODI1LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.VTYXb6zzQdi24CW2g_0KC3n9k0tN6LaEjaDaGtgFE6DBpOdGhuYejQNKzm8Pc4pKn36NcLbBqLJ7x5pA6oVt7yAj_H7sNxd_TFwX84Naut7u9E2jhfXJLUMtlWJPpETLwSuDzWBXLZzDkWvaZJ6ZGC_qAPkdt8CH2JPEAH2t8m70KCz9LeG_ih_6IgGwOodANHrY_XjSE54tY1LKS05NYYCMNfwlIihnVjXOxPdxefuYgbn9uPMrcJiczhrxauFcFkehV8TxAMC-YEWhC-3_OUOM7rnz8LAYsg7Mrvdz-vZjDGG_NFiyu-vI3UQS7om1BjjLQTxE1lCnfKe4ju_QIpql8hvzkFb42CyH8IHuFvI1fdBblhp1Po0U2k027EgH8jsyMja4MwrO9WQjE6YYoaB40dhcmrLbMVNR78wLdbuBDwwlL9djWOcrxvwbxUiUaLwLg35YIWQ3B6nzkWoFZG9Guf2LuLXwitYMvVUgBd1xRhklzNwhV6Tyg0o_HtrWOaQd-MtikQu4IVFC7iOrCsW3rFl5FY3Q_QCS1zP1i_cTuIw61kfnIwlWqGgp0S5ExaDxYsKeQCisbSTJiOmTtu1Vy6mttegUIbRjHPEVctvr0daBQn5_IaT0U3W3UDI_6vFTKTvbtfZRV_KIrEhF5D_g1zw1ZzzDdrzaRo6tXI4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{   \r\n    \"tong_so_diem\": \"23\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{site}}/app/tichdiem/backend/public/api/users/update?ma_khach_hang=KH01",
+							"host": [
+								"{{site}}"
+							],
+							"path": [
+								"app",
+								"tichdiem",
+								"backend",
+								"public",
+								"api",
+								"users",
+								"update"
+							],
+							"query": [
+								{
+									"key": "ma_khach_hang",
+									"value": "KH01"
+								},
+								{
+									"key": "ma_khach_hang_1",
+									"value": "2",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
 				}
 			]
 		}
@@ -544,6 +641,12 @@
 			"key": "site",
 			"value": "https://scigroup.com.vn",
 			"type": "string"
+		},
+		{
+			"key": "site",
+			"value": "https://localhost",
+			"type": "string",
+			"disabled": true
 		}
 	]
 }
