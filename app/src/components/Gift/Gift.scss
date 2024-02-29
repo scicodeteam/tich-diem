@@ -1,0 +1,14 @@
+.gifts_dh_1_0_0 {
+  padding: 40px 0;
+  &__box {
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 8px 2px #d7d5d1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+}

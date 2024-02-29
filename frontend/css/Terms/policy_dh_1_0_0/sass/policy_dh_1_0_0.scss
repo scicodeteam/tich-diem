@@ -1,0 +1,29 @@
+.policy_dh_1_0_0 {
+    &__box {
+        padding: 40px 20px;
+        background: #fff;
+        border-radius: 12px;
+        border: 1px solid #ccc;
+        box-shadow: 0px 2px 8px 2px #d7d5d1;
+    }
+    &__title {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    &__titText {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    &__text {
+        font-size: 16px;
+        line-height: 28px;
+        text-align: justify;
+    }
+    @media (max-width: 430px) {
+        &__titText {
+            font-size: 18px;
+        }
+    }
+}
